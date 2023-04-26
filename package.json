@@ -1,0 +1,11 @@
+{
+  "name": "web-programming-project",
+  "version": "1.0.0",
+  "description": "<h3 align=\"center\">The sef of guidelines for team to follow a project</h3>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
