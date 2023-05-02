@@ -11,6 +11,23 @@ body * {
   margin: 0px;
 }
 
+#page_container {
+  position: relative;
+  min-height: 100vh;
+}
+
+
+
+
+/* ____________ UTIL CLASSES __________________________________________________________________ */
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
 
 
 /* ____________ HEADER __________________________________________________________________ */
@@ -59,6 +76,7 @@ header a {
   margin-right: 20px;
   background-color: orange;
 }
+
 .menu-item:hover {
   background-color: palevioletred;
 }
@@ -107,17 +125,18 @@ header a {
 footer {
   width: 100%;
   position: absolute;
-  bottom: 0px;
+  bottom: 0;
 }
 
 /* no decorations for entries */
-footer li,a {
+footer li,
+a {
   list-style: none;
   text-decoration: none;
 }
 
 /* conatiner for items */
-.navbar_footer {
+.navbar-footer {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -126,15 +145,64 @@ footer li,a {
 }
 
 /* items of navbart */
-.navbar_footer li a {
+.navbar-footer li a {
   font-size: 18px;
   color: #333333;
   padding: 5px 10px;
 }
 
 /* when hovered over item in navbar */
-.navbar_footer li:hover a {
+.navbar-footer li:hover a {
   color: black;
   background-color: palevioletred;
   border-radius: 6px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ____________ MAIN SHIPPER __________________________________________________________________ */
+#overview-headline {
+  margin-top: 20px;
+}
+
+#overview {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  padding-top: 20px;
+  padding-bottom: 100px;
+}
+
+.order-card {
+  border-radius: 20px;
+  margin: 10px 0px;
+  width: 20%;
+  height: 20vh;
+  border: 2px solid black;
+  box-shadow: 0px 3px 6px;
+  background-color: rgb(242, 242, 242);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.order-card:hover {
+  transition: all 0.5s;
+  transform: scale(1.1);
+  box-shadow: 0px 6px 12px;
+  background-color: rgb(212, 212, 212);
+
 }
