@@ -104,6 +104,12 @@ header a {
 
 
 /* ____________ FOOTER __________________________________________________________________ */
+footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+}
+
 /* no decorations for entries */
 footer li,a {
   list-style: none;
