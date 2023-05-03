@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1 {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+button {
+    padding: 4px;
+    margin: 10px;
+}
+
+.login-fields {
+	margin-top: 20px;
+    align-items: center;
+}
+
+.input-section {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    margin: 0 auto;
+}
+
+.registration-navbar {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
